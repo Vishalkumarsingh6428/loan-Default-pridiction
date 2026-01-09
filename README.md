@@ -25,6 +25,15 @@ This project uses applicant details such as income, credit history, education, a
 - Matplotlib, Seaborn
 - Docker
 
+## Docker
+This project is dockerized.
+
+Build image:
+docker build -t loan-default .
+
+Run container:
+docker run -p 8000:8000 loan-default
+
 ## Author
 Vishal Kumar Singh  
 IIT Madras
